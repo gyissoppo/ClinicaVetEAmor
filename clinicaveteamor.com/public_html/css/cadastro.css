@@ -1,0 +1,211 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Josefin Sans', sans-serif;
+	box-sizing: border-box;
+    
+       
+}
+
+html{
+	background-color: #cc5da0;
+	
+}
+
+.hero{
+	height: 100vh;
+	width: 100%;
+    
+	background-size: cover;
+	background-position: center;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 5%;
+    padding-right: 8%;
+}
+
+#loguinho{ /** Logo **/
+	color: #f238a7;
+    font-size: 35px;
+	text-decoration: none;
+}
+
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px  25px;
+}
+nav ul li a{
+	color:rgb(0, 0, 0);
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+nav ul li a:hover{
+	color: #f238a7;
+	transition: .5s;
+}
+.btn{
+	background-color: #f238a7;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 10px 25px;
+	border-radius: 30px;
+	transition: transform .4s; 
+}
+
+
+.btn:hover{
+	transform: scale(1.2);
+}
+
+
+
+
+
+
+h3{
+	color: #f238a7;
+    position: absolute;
+    font-size: 56px;
+    line-height: 10px;
+    top: 23%;
+    left: 38%;
+   
+}
+
+#campo button{
+    height: 45px;
+    width: 70%;
+    background-color: dodgerblue;
+    color: white;
+    font-weight: bold;
+    
+
+
+   
+}
+
+#campo :hover{
+
+    background-color: rgba(39, 235, 0, 0.774);
+    cursor: pointer;
+}
+
+h10{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    
+        
+}
+
+
+
+.container{
+    position: absolute;
+	top: 45%;
+	left: 38%;    
+	text-align: center;
+	transform: translateY(-30%);
+    background-color: #f238a84b; 
+    border-radius: 25px;
+    padding: 2%;
+    right: 38%;
+    top: 53%;  
+	
+    border-style: solid;
+}
+
+
+
+form [type="submit"]:hover{
+    cursor: pointer;
+    
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    
+    
+}
+
+
+
+/*rodapé*/
+
+footer {
+	background-color: rgba(242, 54, 167, 0.067);
+	color: #333;
+	padding: 40px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+  }
+  
+  footer h1 {
+	font-size: 18px;
+	margin-bottom: 10px;
+  }
+  
+  .contato ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	
+  }
+  
+ 
+  
+  .redes-sociais ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+  }
+  
+  .redes-sociais li {
+	margin-right: 10px;
+  }
+  
+  .redes-sociais a {
+	color: #333;
+	text-decoration: none;
+  }
+  
+  .endereco p {
+	margin-bottom: 15px;
+  }
+  
+
+  button{
+	background-color: #FF0077;
+	color: white;
+	font-size: 15px;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-left: 10px;
+	
+
+  }
+
+  button:hover {
+    transform: scale(1.1);
+    transition: .5s;
+    background-color: #8341afb1;
+  }
+  
+
+  

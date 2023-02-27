@@ -1,0 +1,67 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #f238a811;
+    text-align: center;
+}
+
+#inputUsuario{
+    margin-bottom: 5px;
+}
+
+input{
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+.botao-entrar{
+    background-color: #cc5da0;
+    border: solid;
+    padding: 15px;
+    width: 10%;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    margin-top: 1000px;
+}
+
+/*oq acontece quando coloca mouse no botao*/
+button:hover{
+    background-color: #f238a7;
+    cursor: pointer;
+}
+
+h1{
+
+    text-align: center;
+    font-family: monospace;
+    font-size: 45px;
+}
+
+
+.botao-entrar{
+	font-size: 17px;
+	padding: 10px 20px;
+	border-radius: 25px;
+	background-color: #00000062;
+    top: 87%;
+    color: white;
+    left: 39%;
+    position: absolute;
+    text-decoration: none;
+    transition: transform .3s; 
+    
+
+}   
+
+.botao-entrar:hover{
+	transform: scale(1.1);  
+}
+
+
+
+
+
